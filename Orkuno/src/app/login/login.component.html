@@ -1,0 +1,101 @@
+<div>
+  <nav>
+      <div class="nav-wrapper">
+        <a><img class="brand-logo" width="170" src="../../assets/img/logo02.png"></a>
+
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <form>
+            <li><a>Usuário:</a></li>
+              <li>
+              <input required type="text" name="usuario" placeholder="Digite seu Usuário"/></li>
+              <li><a>Senha:</a></li>
+            <li><input required type="password" name="senha" placeholder="Digite sua Senha"/></li>
+            <li>
+                &nbsp;
+                &nbsp;
+                &nbsp;                  
+                <button routerLink="/paginaInicial" class="btn-small waves-effect waves-light" type="submit" name="action">Acessar</button>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+              </li>
+          </form>
+        </ul>
+      </div>
+    </nav>
+
+    <router-outlet></router-outlet>
+
+    <div class=" row container">
+      <form class="col s12">
+          <h3 class="center">Cadastre-se na Orkuno</h3>
+        <div class="">
+          <div class="input-field col s6">
+            <input required id="nome" type="text">
+            <label for="first_name">Nome</label>
+          </div>
+          <div class="input-field col s6">
+            <input required id="sobrenome" type="text" class="validate">
+            <label for="sobrenome">Sobrenome</label>
+          </div>
+        </div>
+
+        <div class="">
+            <div class="input-field col s6">
+              <input required id="password" type="password" class="validate">
+              <label for="password">Senha</label>
+            </div>
+          <div class="input-field col s6">
+            <input required id="password" type="password">
+            <label for="password">Confirme sua Senha</label>
+          </div>
+        </div>
+
+        <div class="">
+            <div class="input-field col s6">
+                <input required id="email" type="text" class="validate">
+                <label for="datanascimento">E-mail</label>
+            </div>
+
+            <div class="input-field col s3">
+              <input required id="datanascimento" type="date" class="validate">
+              <label for="datanascimento">Data de Nascimento</label>
+            </div>
+
+            <div class="row">
+              <span>Sexo</span>
+              <p></p>
+              <label>
+                <input required name="sexo" type="radio"  />
+                <span>Masculino</span>
+              </label>
+                &nbsp;
+                &nbsp;
+              <label>
+                <input required name="sexo" type="radio" />
+                <span>Feminino</span>
+              </label>
+            </div>      
+        </div>    
+        
+     
+        <div class="">
+          <div class="input-field col s3">
+            <label> 
+              <input required type="checkbox"  />
+              <span>Concordo com os Termos</span>
+             </label>  
+            </div>  
+            <div class="input-field col s3  ">
+                <a href="" class="btn-floating  "><i class="material-icons">info</i></a>
+            </div>
+          <div class="input-field col s6">
+              <button routerLink="/paginaInicial" class="btn-large waves-effect waves-light" type="submit" name="action">Cadastre-se    <i class="material-icons right">add_circle_outline</i>
+              </button>
+          </div>
+        </div>     
+      </form>
+    </div>
+
+  
