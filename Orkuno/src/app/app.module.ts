@@ -8,6 +8,8 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { PaginaInicialRoutingModule } from './pagina-inicial/pagina-inicial-routing.module';
 import { PerfilRoutingModule } from './perfil/perfil-routing.module';
 import { LoginComponent } from './login/login.component';
+import { AvaliacaoPageComponent } from './avaliacao-page/avaliacao-page.component';
+import { AvaliacaoOKComponent } from './avaliacao-ok/avaliacao-ok.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     PaginaInicialComponent,
     PerfilComponent,
-    LoginComponent
+    LoginComponent,
+    AvaliacaoPageComponent,
+    AvaliacaoOKComponent
   ],
   imports: [
     BrowserModule,

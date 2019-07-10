@@ -1,0 +1,94 @@
+<nav>
+  <div class="nav-wrapper">
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a routerLink="/paginaInicial">Pagina Inicial</a></li>
+      <li class="brand-logo center"><h4>Avaliação</h4></li>
+    </ul>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a routerLink="/login">Sair</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row">
+    <form class="col s12">
+        <div class="collection col s2">
+            <a routerLink="/paginaInicial" class="collection-item">Inicio</a>
+            <a routerLink="/perfil" class="collection-item">Perfil</a>
+            <a class="collection-item">Fórum</a>
+            <a routerLink="/avaliacaoPage" class="collection-item active">Avalie Nossa Página</a>
+        </div>
+        <div class="col s1"></div>
+        
+        <div class="input-field col s6">
+          <h4>Deixe-nos sugestões para a página!!!</h4>
+        </div> 
+        
+        <div class="col s1"></div>
+        <div class="collection col s2">
+            <a class="collection-item active">Amigos</a>
+            <a class="collection-item">Amigo01</a>
+            <a class="collection-item">Amigo02</a>
+            <a class="collection-item">Amigo03</a>
+        </div>
+    </form>
+  </div>
+  <div>
+      
+    </div>
+    <div class="row">
+        <form class="col s12">
+            <div class="collection col s2">
+                <a class="collection-item active">Eventos</a>
+                <a class="collection-item">Feijoada</a>
+                <a class="collection-item">Dijavu</a>
+                <a class="collection-item">Só Sofrência</a>
+                <a class="collection-item">Maratona do Barzin</a>  
+            </div>
+          <div class="col s1"></div>
+            <div class="input-field col s5">
+                <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input id="input_text" type="text" data-length="10">
+                        <label for="input_text">Nome</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="input_text" type="text" data-length="10">
+                        <label for="input_text">E-mail</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="textarea2">Sugestão</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                  <div class="row">
+                      <div class="input-field col s12">
+                        <div class="col s1">
+                          <button routerLink="/avaliacaoPageOk" class="btn-small waves-effect waves-light center" type="submit">Enviar</button> 
+                        </div>
+                        <div class="col s2 "></div>
+                          <div class="col s1">    
+                            <button routerLink="/paginaInicial" class="btn-small waves-effect waves-light center" type="submit">Cancelar</button>    
+                          </div>  
+                        </div> 
+                      </div> 
+                  </div> 
+            <div class=" col s1">
+            </div>
+            <div class="col s1"></div>
+            <div class="collection col s2">
+                <a class="collection-item active">Comunidades</a>
+                <a class="collection-item">Comunidade01</a>
+                <a class="collection-item">Comunidade02</a>
+                <a class="collection-item">Comunidade03</a>
+                <a class="collection-item">Comunidade04</a>  
+            </div>
+        </form>
+      </div>
+          
